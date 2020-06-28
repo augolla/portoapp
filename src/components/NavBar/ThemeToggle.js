@@ -2,7 +2,6 @@ import React,{Component} from 'react'
 import './ThemeToggle.css'
 
 class ThemeToggle extends Component{
-  }
   componentDidMount(){
     const ThemeToggle=document.querySelector('.ThemeToggle')
     const toggleCircle=document.querySelector('.toggleCircle')
