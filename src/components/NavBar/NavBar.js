@@ -1,9 +1,9 @@
 import React from 'react'
 import './NavBar.css'
 import Toggle from './ThemeToggle'
-import $ from 'jquery'
-import Icon from './icons8-circuit2-96.png'
-import {Link,animateScroll as scroll} from 'react-scroll';
+// import $ from 'jquery'
+// import Icon from './icons8-circuit2-96.png'
+import {Link} from 'react-scroll';
 
 class NavBar extends React.Component{
   componentDidMount(){

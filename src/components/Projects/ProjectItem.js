@@ -9,7 +9,7 @@ function ProjectItem() {
   return(
     <div className='ProjectItem col-12 col-md-6 p-2 mb-1' style={{background:'#0A192F',maxHeight:'310px'}}>
       <div className='col-12 p-0 prImage' >
-        <img src={immgg} width="100%" />
+        <img src={immgg} alt='project image here' width="100%" />
         <div className='prOverlay d-flex justify-content-center align-items-center'>
         </div>
         <div className='prTitle'>

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css'
-import NavBar from '../NavBar/NavBar'
-import About from '../About/About'
-import Contact from '../Contact/Contact'
+// import NavBar from '../NavBar/NavBar'
+// import About from '../About/About'
+// import Contact from '../Contact/Contact'
 
 
 function Home() {

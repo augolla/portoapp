@@ -1,9 +1,9 @@
 import React from 'react';
-import {FiPlay} from 'react-icons/fi'
+// import {FiPlay} from 'react-icons/fi'
 import './About.css'
-import SkillCard from './SkillCard'
+// import SkillCard from './SkillCard'
 import Code from '../Icons/Code'
-import Webdesign from '../Icons/Webdesign'
+// import Webdesign from '../Icons/Webdesign'
 import AiBrain from '../Icons/AiBrain'
 
 

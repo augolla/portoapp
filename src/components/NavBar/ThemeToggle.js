@@ -2,8 +2,6 @@ import React,{Component} from 'react'
 import './ThemeToggle.css'
 
 class ThemeToggle extends Component{
-  constructor() {
-    super()
   }
   componentDidMount(){
     const ThemeToggle=document.querySelector('.ThemeToggle')
@@ -34,8 +32,9 @@ class ThemeToggle extends Component{
         toggleCircle.style.background='#FFFFFF'
         toggleBack.style.background='#7290A4'
         for (var item of NavBar) {
+          let item2=item
           document.querySelector(item).style.background="#0A192F"
-          document.querySelector(item).style.color='#64FFDA'
+          document.querySelector(item2).style.color='#64FFDA'
         }
         document.querySelector('.Title').style.color="#CCD6F6"
         document.querySelector('.nameIs').style.color='#64FFDA'
