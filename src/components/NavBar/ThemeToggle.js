@@ -30,15 +30,15 @@ class ThemeToggle extends Component{
         toggleCircle.style.left='1px'
         toggleCircle.style.background='#FFFFFF'
         toggleBack.style.background='#7290A4'
-        for (var item of NavBar) {
-          let item2=item
-          document.querySelector(item).style.background="#0A192F"
+        for (var stem of NavBar) {
+          let item2=stem
+          document.querySelector(stem).style.background="#0A192F"
           document.querySelector(item2).style.color='#64FFDA'
         }
         document.querySelector('.Title').style.color="#CCD6F6"
         document.querySelector('.nameIs').style.color='#64FFDA'
-        for (var h of document.querySelectorAll('.fixen')) {
-          h.style.color='#8892B0'
+        for (var k of document.querySelectorAll('.fixen')) {
+          k.style.color='#8892B0'
         }
         change=true
       }
