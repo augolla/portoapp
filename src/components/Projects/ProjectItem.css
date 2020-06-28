@@ -1,0 +1,68 @@
+.ProjectItem{
+  overflow: hidden;
+}
+.prImage{
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.prImage:hover{
+
+}
+.prOverlay{
+  background: rgba(100,255,218,0);
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  height:100%;
+  width:100%;
+  transition: all .3s ease-in-out;
+  transition-delay: .1s;
+}
+.prOverlay p{
+
+}
+.prImage:hover>.prOverlay{
+  /* height: 0; */
+  background: rgba(100,255,218,.45);
+}
+.prTitle{
+  background: #172A45;
+  position: absolute;
+  top: 0;
+  width:100%;
+  height: 10%;
+  color: #A8B2D1;
+  cursor: auto;
+}
+.prTitle h5{
+  text-align: center;
+}
+
+.prDescription{
+  background: #172A45;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height:0%;
+  color: #A8B2D1;
+  cursor: auto;
+  line-height: 1.5;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all .8s ease-in-out;
+}
+.prDescription p{
+  text-align: center;
+  font-size: 13px;
+}
+.prTech{
+  line-height: 1;
+  font-size: 14px !important;
+  color: #5BE5C8;
+}
+.prImage:hover > .prDescription{
+  height: 50%;
+}
+.Icons{
+
+}

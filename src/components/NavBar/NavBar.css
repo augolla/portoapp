@@ -1,0 +1,42 @@
+.NavBar{
+  background: #0A192F;
+  transition: all .3s ease-in-out;
+}
+.NavBar .nav-item{
+  color: #BAC5E5;
+  margin-right: 3.5vw;
+  transition: all .3s ease-in-out;
+  font-weight: bold;
+}
+.NavBar .nav-item:hover{
+  color: #57DDC1;
+  cursor: pointer;
+}
+.bar1,.bar2,.bar3{
+  width:40px;
+  border-top: 1px solid #64FFDA;
+  background: #64FFDA;
+}
+.bar1,.bar2{
+  margin-bottom: 10px;
+}
+.navbar-collapse{
+  position: relative;
+  padding-left: 0px;
+  margin-left: 0px;
+  width: 100%;
+  /* background: #172A45; */
+}
+.X{
+  display: none;
+  margin-left:15px;
+  margin-right: 15px;
+  margin-bottom: 14px;
+  font-weight: lighter;
+  transform: scale(1.5);
+  color: #64FFDA;
+  font-family: 'Quicksand';
+}
+.NavBar .active{
+  color: #57DDC1;
+}

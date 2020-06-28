@@ -1,0 +1,25 @@
+.ThemeToggle{
+  display: grid;
+  cursor: pointer;
+}
+.toggleBack,.toggleCircle{
+  grid-column: 1;
+  grid-row: 1;
+}
+.toggleBack{
+  background: #7290A4;
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+.toggleCircle{
+  background: #FFFFFF;
+  width: 20px;
+  height: 20px;
+  transition: all .3s ease-in-out;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+  left: 1px;
+}

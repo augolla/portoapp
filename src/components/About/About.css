@@ -1,0 +1,47 @@
+.About{
+  background: #0A192F;
+  color: white;
+  font-family: 'Cousine';
+  margin-bottom: 200px;
+}
+.Title1{
+  text-align: center;
+  font-family: 'Cousine';
+  border-bottom: 2px solid #64FFDA;
+  width:70%;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.Title2{
+  text-align: center;
+  font-family: 'Cousine';
+  border-bottom: 1px solid #64FFDA;
+  width:50%;
+  margin-bottom: 50px;
+}
+.About-me{
+  margin-bottom: 60px;
+}
+.What-I-do{
+  margin-bottom: 80px;
+}
+p{
+  font-size: 12px;
+}
+h5,p,h6{
+  color:#8892B0;
+}
+h3{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+h5{
+  font-size: 17px;
+  font-weight: bold;
+}
+.tools h5{
+  color:#bcbccf;
+}
+li{
+  text-indent: 5px;
+}

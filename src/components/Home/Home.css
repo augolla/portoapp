@@ -1,0 +1,61 @@
+.Home{
+  min-height: 200px;
+  scroll-behavior: smooth;
+  padding-top: 40px;
+}
+.home-container{
+  margin-bottom: 150px;
+}
+.nameIs{
+
+}
+.Title{
+  color: #CCD6F6;
+  font-family: 'Cousine',monospace;
+  font-weight: 900;
+}
+.About-me{
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+.nameIs{
+  font-family: 'Cousine',monospace;
+  color: #64FFDA;
+  font-weight: 400;
+}
+.Roles{
+  color: #8892B0;
+  transition: .4s ease;
+}
+.Roles h5{
+  color: #8892B0;
+  transition: .4s ease;
+  font-family: 'Cousine',monospace;
+}
+.Roles h5:hover{
+  text-shadow: -3px 0px 15px #64FFDA,-3px 0px 15px #64FFDA,-3px 0px 15px #64FFDA;
+}
+.btn{
+  margin-top: 30px;
+  background: #0A192F;
+  color: #64FFDA;
+  height: 35px;
+  width:100px;
+  font-family: sans-serif;
+  border:.6px solid #64FFDA;
+  border-radius: 1px;
+  transition: .4s ease;
+  letter-spacing: 2.5px;
+  padding-top: 9px;
+  margin-left: 13px;
+  border-radius: 2px;
+}
+.btn:hover{
+  background: #10293B;
+  transform: rotateY(20deg);
+}
+.btn p{
+  font-size: 10px;
+  font-weight: 200;
+  color:#64FFDA;
+}
