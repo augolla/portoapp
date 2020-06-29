@@ -11,7 +11,7 @@ import Projects from './components/Projects/Projects'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App m-sm-3 p-sm-3">
       <Delayed waitBeforeShow={3500}>
         <NavBar/>
         <div id='home'><Home /></div>

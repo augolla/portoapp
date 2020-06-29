@@ -1,7 +1,7 @@
 import React from 'react'
 import './Loading.css'
-import Loader from 'react-loader-spinner'
-import $ from 'jquery'
+// import Loader from 'react-loader-spinner'
+// import $ from 'jquery'
 import {FiCodesandbox} from 'react-icons/fi'
 // <div className='IconLoad d-flex justify-content-center animated infinite bounce delay-2s'
 //     style={{color:'#64FFDA',border:"2px solid #64FFDA"}}>
