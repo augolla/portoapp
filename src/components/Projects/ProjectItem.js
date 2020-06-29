@@ -7,9 +7,9 @@ import {FiDisc} from 'react-icons/fi'
 function ProjectItem() {
   // src='https://source.unsplash.com/featured?dog'
   return(
-    <div className='ProjectItem col-12 col-md-6 p-2 mb-1' style={{background:'#0A192F',maxHeight:'310px'}}>
-      <div className='col-12 p-0 prImage' >
-        <img src={immgg} alt='project here' width="100%" />
+    <div className='ProjectItem col-12 col-md-4 p-2 mb-1' style={{background:'#0A192F',maxHeight:'310px'}}>
+      <div className='col-12 p-0'style={{background:'#172A45',minHeight:"300px"}} >
+        {/*<img src={immgg} alt='project here' width="100%" />
         <div className='prOverlay d-flex justify-content-center align-items-center'>
         </div>
         <div className='prTitle'>
@@ -26,6 +26,9 @@ function ProjectItem() {
           </p>
           <p className='prTech'>Python &nbsp; Java &nbsp; C++ &nbsp; HTML/CSS</p>
           <p>...More</p>
+        </div>*/}
+        <div className='content p-5'>
+          <h5>ProjectName</h5>
         </div>
       </div>
 

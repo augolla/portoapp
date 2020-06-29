@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css'
-import Toggle from './ThemeToggle'
+// import Toggle from './ThemeToggle'
+import {FiCodesandbox} from 'react-icons/fi'
 // import $ from 'jquery'
 // import Icon from './icons8-circuit2-96.png'
 import {Link} from 'react-scroll';
@@ -46,10 +47,15 @@ class NavBar extends React.Component{
       }
       })
   }
+  reload=()=>{
+    window.location.reload()
+  }
   render(){
     return(
         <nav className='NavBar navbar navbar-expand-md shadow-lg sticky-top'>
-          <div className='navbar-brand'><Toggle/></div>
+          <div className='navbar-brand' style={{cursor:'pointer'}} onClick={this.reload}>
+            <FiCodesandbox color='#64FFDA' size='30px'/>
+          </div>
           <div className='navbar-toggler border-0' data-toggle='collapse' data-target="#everything2">
             <div className='bar1'></div>
             <div className='X'>X</div>

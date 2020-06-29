@@ -1,0 +1,52 @@
+.Loading{
+  height: 100px;
+}
+.LoadIcon{
+  height:100px;
+  width: 100px;
+  color:#64FFDA;
+  /* border: 2px solid #64FFDA; */
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.LoadIcon h1{
+  font-size: 5vw;
+  transform: rotate(-45deg);
+}
+.IconLoad{
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-timing-function:linear;
+
+}
+.IconLoad2{
+  /* border:2px solid #64FFDA; */
+  animation-name: borderin;
+  animation-delay: 1200ms;
+  animation-duration: 2000ms;
+  animation-iteration-count:1;
+  animation-timing-function: ease-out;
+}
+
+
+@keyframes spin {
+     from{
+        transform:scale(.05) rotate(360deg);
+    }
+    to{
+      transform: scale(1) rotate(0deg);
+    }
+
+}
+@keyframes borderin {
+  0%{
+    border: 2px solid #0A192F;
+  }
+  100%{
+    border:2px solid #64FFDA;
+  }
+}

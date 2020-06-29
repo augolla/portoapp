@@ -59,3 +59,12 @@
   font-weight: 200;
   color:#64FFDA;
 }
+
+@keyframes title {
+  from{
+    opacity: 0
+  }
+  to{
+    opacity: 1
+  }
+}
