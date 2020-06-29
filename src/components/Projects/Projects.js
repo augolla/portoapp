@@ -10,7 +10,7 @@ function Projects() {
       <div className='row p-0'>
         <ProjectItem
            projectTitle='Reep'
-           projectDescribe='A Google Keep clone made with Rect and Firebase'
+           projectDescribe='A Google Keep clone made with React and Firebase'
            techUsed={['React','Node','Firebase','MySQL']}
            codelink='https://github/augolla'
           />
@@ -22,17 +22,17 @@ function Projects() {
            />
          <ProjectItem
            projectTitle='FreshFoods'
-           projectDescribe='An simple ecommerce site for groceries'
+           projectDescribe='A simple ecommerce site for groceries'
            techUsed={['Javascript','React','Python','Django']}
            codelink='https://github/augolla'
           />
         <ProjectItem projectTitle='Gaze'
-          projectDescribe='An experimental facial recognition login system for addon*'
+          projectDescribe='An experimental facial recognition login system addon*'
           techUsed={['Javascript','Python','Tensorflow']}
           codelink='https://github/augolla'
           />
         <ProjectItem projectTitle='Recipr'
-          projectDescribe='Input what you want to have for dinner and/or your available ingredients have and get recipes in order of complexity'
+          projectDescribe='Input food item or available ingredients and get recipes in order of complexity'
           techUsed={['Javascript','MongoDB','GraphQL','Node/Express','React']}
           codelink='https://github/augolla'
           />
