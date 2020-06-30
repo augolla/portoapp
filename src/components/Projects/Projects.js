@@ -12,7 +12,7 @@ function Projects() {
            projectTitle='Reep'
            projectDescribe='A Google Keep clone made with React and Firebase'
            techUsed={['React','Node','Firebase','MySQL']}
-           codelink='https://github/augolla'
+           codelink='https://github.com/augolla/reep.git'
           />
         <ProjectItem
            projectTitle='Tetris Clone'
@@ -24,17 +24,17 @@ function Projects() {
            projectTitle='FreshFoods'
            projectDescribe='A simple ecommerce site for groceries'
            techUsed={['Javascript','React','Python','Django']}
-           codelink='https://github/augolla'
+           codelink='https://github.com/augolla/freshfoods.git'
           />
         <ProjectItem projectTitle='Gaze'
           projectDescribe='An experimental facial recognition login system addon*'
           techUsed={['Javascript','Python','Tensorflow']}
-          codelink='https://github/augolla'
+          codelink='https://github.com/augolla/portoapp.git'
           />
         <ProjectItem projectTitle='Recipr'
           projectDescribe='Input food item or available ingredients and get recipes in order of complexity'
           techUsed={['Javascript','MongoDB','GraphQL','Node/Express','React']}
-          codelink='https://github/augolla'
+          codelink='https://github.com/augolla/portoapp.git'
           />
       </div>
       <div className='d-flex justify-content-center'>
