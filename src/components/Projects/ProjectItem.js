@@ -34,7 +34,7 @@ function ProjectItem(props) {
           <div className='col-3 '>
             <div className='d-flex justify-content-around align-items-center'>
               <a href={props.codelink} target='_blank' rel="noopener noreferrer"><div className='codeIcon mr-2' title='See Code'><DiCodeBadge color="#64FFDA" size='3.5vh'/></div></a>
-              <div className='liveButtton ml-2' title='See Live(Unavailabel)'><FiDisc color="#64FFDA" size='3.5vh'/></div>
+              <div className='liveButtton ml-2' title='See Live(Currently unavailable)'><FiDisc color="#64FFDA" size='3.5vh'/></div>
             </div>
           </div>
           <div className='col-12 d-flex projectDescribe mb-2'>
